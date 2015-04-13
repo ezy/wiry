@@ -10,11 +10,11 @@ $light-gray: #DDD !default;
 $base-font-color: $dark-gray !default;
 $base-line-height: 1.5em !default;
 $base-spacing: 1.5em !default;
-$base-border-color: gainsboro !default;
+$base-border-color: #333 !default;
 $base-border-radius: 3px !default;
 $medium-screen: em(640) !default;
 $large-screen: em(860) !default;
-$base-accent-color: #003A69 !default;
+$base-accent-color: #000 !default;
 $base-link-color: $base-accent-color !default;
 // Styles import
 @import "typography.scss";

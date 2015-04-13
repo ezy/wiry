@@ -1,15 +1,15 @@
 .hero {  
-  $hero-background-top: #7F99BE; 
-  $hero-background-bottom: #20392B;
+  $hero-background-top: #CCC; 
+  $hero-background-bottom: #555;
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: '../images/auckland.jpg';
+  $hero-image: '../images/black-white.jpg';
 
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  background-color: #5298B6;
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), repeat $hero-background-top scroll);
+  background-color: #555;
   background-position: 50% 36%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: 10%;
   padding-bottom: 3em;
   .hero-logo img {
     height: 4em;
@@ -26,6 +26,8 @@
 
     .hero-copy {
       text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px 0 20px;
       
       h1 {
         font-size: 1.6em;
