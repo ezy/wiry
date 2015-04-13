@@ -6,12 +6,12 @@
   $flex-box-width: 18em;
   $flex-box-color: transparentize($base-font-color, 0.3);
   $flex-box-top-colors: 
-    #003A69, 
-    #003A69,
-    #003A69, 
-    #003A69,
-    #003A69, 
-    #003A69;
+    #333, 
+    #333,
+    #333, 
+    #333,
+    #333, 
+    #333;
 
     @include clearfix;
     @include display(flex);
