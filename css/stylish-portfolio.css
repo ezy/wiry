@@ -209,10 +209,23 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    border: 3px solid grey;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
+}
+
+/* Contact */
+
+.text-muted span {
+  -webkit-transform:rotate(180deg);
+   -moz-transform:rotate(180deg);
+   -o-transform:rotate(180deg);
+   /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+   -ms-transform:rotate(180deg);
+   transform: rotate(180deg);
+   display: inline-block;
 }
 
 /* Call to Action */
